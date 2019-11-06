@@ -1,0 +1,1112 @@
+{
+    "survey": {
+        "id": 2039,
+        "uuid": "ab320070-bbad-0134-bb62-0a6b3886cf3d",
+        "title": "QA challenge",
+        "title_internal": "QA challenge",
+        "tagline": null,
+        "tag_list": [
+            "test_javier",
+            "qa_intern_challenge"
+        ],
+        "prequalification": null,
+        "kind": "mr_survey",
+        "published": false,
+        "body_fingerprint": "xirar-silyr-leryr-repid-rygek-sakyd-delim-remet-kopir-pumuh-tusef-nipet-cedul-guzaz-zokof-rinub-cixux",
+        "pseudo_body": {
+            "locale": "en",
+            "screens": [
+                {
+                    "id": "page_1",
+                    "disallow_back": "true",
+                    "questions": [
+                        {
+                            "id": "answer_1",
+                            "title": "#Welcome to this survey about general knowledge!\n\n There are 10 questions in the survey",
+                            "kind": "multiple",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "I understand that if I rush or answer dishonestly I will not get rewarded",
+                                        "id": "O0010"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_2",
+                    "questions": [
+                        {
+                            "id": "answer_2",
+                            "kind": "multiple_sole",
+                            "title": "<b>\n\nHow many hours per day do you spend on reading the news?</b>",
+                            "notify_message": "INSTRUCTION: Please select one.",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "I don't regularly read the news",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "1-3 hours",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "4-5 hours",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "More than 7 hour",
+                                        "id": "O0040"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_3",
+                    "questions": [
+                        {
+                            "id": "answer_3",
+                            "validation_number_options": "3,4,5,6",
+                            "kind": "multiple",
+                            "title": "<b>\n\nWhich of these social media platforms do you use at least once a week?</b>",
+                            "shuffle_options": "true",
+                            "notify_message": "Please select at least 2.",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Facebook",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Instagram",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Twitter",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "LinkedIn",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "Blogs",
+                                        "id": "O0050"
+                                    },
+                                    {
+                                        "text": "YouTube",
+                                        "id": "O0060"
+                                    },
+                                    {
+                                        "text": "None of the above",
+                                        "lock_position": "true",
+                                        "none_of_the_others": "true",
+                                        "id": "O0070"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_4",
+                    "questions": [
+                        {
+                            "id": "answer_4",
+                            "kind": "multiple",
+                            "title": "<b>\n\nWhich of the following media do you use at least once a week?</b>",
+                            "notify_message": "Please select all that apply.",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Television",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Newspaper",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Radio",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Twitter",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "Other",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_5",
+                    "questions": [
+                        {
+                            "id": "answer_5",
+                            "kind": "text",
+                            "title": "<b>If given the chance to learn all the secrets of one PROMINENT PERSON, whose secrets would you like to know?</b>",
+                            "validation_regex": "[a-zA-Z]",
+                            "validation_message": "Please enter a number."
+                        }
+                    ]
+                },
+                {
+                    "id": "page_6",
+                    "questions": [
+                        {
+                            "id": "answer_6",
+                            "kind": "multiple_sole",
+                            "title": "<b>\n\nDo you agree or disagree: In general, I trust the information I get from the media.</b>",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Strongly agree",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Somewhat agree",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Neither agree nor disagree",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Somewhat disagree",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "Strongly disagree",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_7",
+                    "disallow_back": "true",
+                    "questions": [
+                        {
+                            "id": "answer_7",
+                            "kind": "text",
+                            "title": "What is five plus two?",
+                            "notify_message": "We need to check you're not a robot",
+                            "validation_regex": "^(7)$",
+                            "validation_message": "Please enter the correct digit"
+                        }
+                    ]
+                },
+                {
+                    "id": "page_8",
+                    "disallow_back": "true",
+                    "shuffle_questions": "false",
+                    "questions": [
+                        {
+                            "id": "answer_8",
+                            "kind": "multiple_sole",
+                            "title": "Do you live in a city or in a rural area?",
+                            "demographic_key": "city_or_rural",
+                            "shuffle_options": "true",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "City",
+                                        "id": "O0010",
+                                        "demographic_value": "city"
+                                    },
+                                    {
+                                        "text": "Rural area",
+                                        "id": "O0020",
+                                        "demographic_value": "rural"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_9",
+                    "questions": [
+                        {
+                            "id": "answer_9",
+                            "kind": "multiple_sole",
+                            "shuffle_options": "true",
+                            "validation_message": "Please select one movies",
+                            "notify_message": "Please select one movies",
+                            "switch_tag_random_selection": 1,
+                            "title": "<b>Which is your favourite from these award-winning films?</b>",
+                            "variable_key": "branching_variable",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "The Godfather",
+                                        "id": "O0010",
+                                        "variable_value": "the_godfather"
+                                    },
+                                    {
+                                        "text": "Gandhi",
+                                        "id": "O0020",
+                                        "variable_value": "gandhi"
+                                    },
+                                    {
+                                        "text": "Forrest Gump",
+                                        "id": "O0030",
+                                        "variable_value": "gandhi"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_10",
+                    "questions": [
+                        {
+                            "id": "answer_10a",
+                            "kind": "multiple_sole",
+                            "shuffle_options": "true",
+                            "notify_message": "Please select one",
+                            "title": "<b>What do you like most about The Godfather?</b>",
+                            "switch": {
+                                "conditions": [
+                                    {
+                                        "variable_key": "branching_variable",
+                                        "variable_values": [
+                                            "the_godfather"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Sound",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Cinematography",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Editing",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Narrative/story",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "The actors",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "answer_10b",
+                            "kind": "multiple_sole",
+                            "shuffle_options": "true",
+                            "notify_message": "Please select one",
+                            "title": "<b>What do you like most about Gandhi?</b>",
+                            "switch": {
+                                "conditions": [
+                                    {
+                                        "variable_key": "branching_variable",
+                                        "variable_values": [
+                                            "gandhi"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Sound",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Cinematography",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Editing",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Narrative/story",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "The actors",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "answer_10c",
+                            "kind": "multiple_sole",
+                            "shuffle_options": "true",
+                            "notify_message": "Please select one",
+                            "title": "<b>What do you like most about Forrest Gump?</b>",
+                            "switch": {
+                                "conditions": [
+                                    {
+                                        "variable_key": "branching_variable",
+                                        "variable_values": [
+                                            "forrest_gump"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Sound",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Cinematography",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Editing",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Narrative/story",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "The actors",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "body": {
+            "locale": "en",
+            "screens": [
+                {
+                    "id": "page_1",
+                    "disallow_back": "true",
+                    "questions": [
+                        {
+                            "id": "answer_1",
+                            "title": "#Welcome to this survey about general knowledge!\n\n There are 10 questions in the survey",
+                            "kind": "multiple",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "I understand that if I rush or answer dishonestly I will not get rewarded",
+                                        "id": "O0010"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_2",
+                    "questions": [
+                        {
+                            "id": "answer_2",
+                            "kind": "multiple_sole",
+                            "title": "<b>\n\nHow many hours per day do you spend on reading the news?</b>",
+                            "notify_message": "INSTRUCTION: Please select one.",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "I don't regularly read the news",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "1-3 hours",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "4-5 hours",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "More than 7 hour",
+                                        "id": "O0040"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_3",
+                    "questions": [
+                        {
+                            "id": "answer_3",
+                            "validation_number_options": "3,4,5,6",
+                            "kind": "multiple",
+                            "title": "<b>\n\nWhich of these social media platforms do you use at least once a week?</b>",
+                            "shuffle_options": "true",
+                            "notify_message": "Please select at least 2.",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Facebook",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Instagram",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Twitter",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "LinkedIn",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "Blogs",
+                                        "id": "O0050"
+                                    },
+                                    {
+                                        "text": "YouTube",
+                                        "id": "O0060"
+                                    },
+                                    {
+                                        "text": "None of the above",
+                                        "lock_position": "true",
+                                        "none_of_the_others": "true",
+                                        "id": "O0070"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_4",
+                    "questions": [
+                        {
+                            "id": "answer_4",
+                            "kind": "multiple",
+                            "title": "<b>\n\nWhich of the following media do you use at least once a week?</b>",
+                            "notify_message": "Please select all that apply.",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Television",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Newspaper",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Radio",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Twitter",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "Other",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_5",
+                    "questions": [
+                        {
+                            "id": "answer_5",
+                            "kind": "text",
+                            "title": "<b>If given the chance to learn all the secrets of one PROMINENT PERSON, whose secrets would you like to know?</b>",
+                            "validation_regex": "[a-zA-Z]",
+                            "validation_message": "Please enter a number."
+                        }
+                    ]
+                },
+                {
+                    "id": "page_6",
+                    "questions": [
+                        {
+                            "id": "answer_6",
+                            "kind": "multiple_sole",
+                            "title": "<b>\n\nDo you agree or disagree: In general, I trust the information I get from the media.</b>",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Strongly agree",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Somewhat agree",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Neither agree nor disagree",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Somewhat disagree",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "Strongly disagree",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_7",
+                    "disallow_back": "true",
+                    "questions": [
+                        {
+                            "id": "answer_7",
+                            "kind": "text",
+                            "title": "What is five plus two?",
+                            "notify_message": "We need to check you're not a robot",
+                            "validation_regex": "^(7)$",
+                            "validation_message": "Please enter the correct digit"
+                        }
+                    ]
+                },
+                {
+                    "id": "page_8",
+                    "disallow_back": "true",
+                    "shuffle_questions": "false",
+                    "questions": [
+                        {
+                            "id": "answer_8",
+                            "kind": "multiple_sole",
+                            "title": "Do you live in a city or in a rural area?",
+                            "demographic_key": "city_or_rural",
+                            "shuffle_options": "true",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "City",
+                                        "id": "O0010",
+                                        "demographic_value": "city"
+                                    },
+                                    {
+                                        "text": "Rural area",
+                                        "id": "O0020",
+                                        "demographic_value": "rural"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_9",
+                    "questions": [
+                        {
+                            "id": "answer_9",
+                            "kind": "multiple_sole",
+                            "shuffle_options": "true",
+                            "validation_message": "Please select one movies",
+                            "notify_message": "Please select one movies",
+                            "switch_tag_random_selection": 1,
+                            "title": "<b>Which is your favourite from these award-winning films?</b>",
+                            "variable_key": "branching_variable",
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "The Godfather",
+                                        "id": "O0010",
+                                        "variable_value": "the_godfather"
+                                    },
+                                    {
+                                        "text": "Gandhi",
+                                        "id": "O0020",
+                                        "variable_value": "gandhi"
+                                    },
+                                    {
+                                        "text": "Forrest Gump",
+                                        "id": "O0030",
+                                        "variable_value": "gandhi"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "page_10",
+                    "questions": [
+                        {
+                            "id": "answer_10a",
+                            "kind": "multiple_sole",
+                            "shuffle_options": "true",
+                            "notify_message": "Please select one",
+                            "title": "<b>What do you like most about The Godfather?</b>",
+                            "switch": {
+                                "conditions": [
+                                    {
+                                        "variable_key": "branching_variable",
+                                        "variable_values": [
+                                            "the_godfather"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Sound",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Cinematography",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Editing",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Narrative/story",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "The actors",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "answer_10b",
+                            "kind": "multiple_sole",
+                            "shuffle_options": "true",
+                            "notify_message": "Please select one",
+                            "title": "<b>What do you like most about Gandhi?</b>",
+                            "switch": {
+                                "conditions": [
+                                    {
+                                        "variable_key": "branching_variable",
+                                        "variable_values": [
+                                            "gandhi"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Sound",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Cinematography",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Editing",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Narrative/story",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "The actors",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "answer_10c",
+                            "kind": "multiple_sole",
+                            "shuffle_options": "true",
+                            "notify_message": "Please select one",
+                            "title": "<b>What do you like most about Forrest Gump?</b>",
+                            "switch": {
+                                "conditions": [
+                                    {
+                                        "variable_key": "branching_variable",
+                                        "variable_values": [
+                                            "forrest_gump"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "options": [
+                                    {
+                                        "text": "Sound",
+                                        "id": "O0010"
+                                    },
+                                    {
+                                        "text": "Cinematography",
+                                        "id": "O0020"
+                                    },
+                                    {
+                                        "text": "Editing",
+                                        "id": "O0030"
+                                    },
+                                    {
+                                        "text": "Narrative/story",
+                                        "id": "O0040"
+                                    },
+                                    {
+                                        "text": "The actors",
+                                        "id": "O0050"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "is_completion_speed_control_active": false,
+        "publisher_url": "https://surveyinterface-v2.opinionsample.com/#/surveys/ab320070-bbad-0134-bb62-0a6b3886cf3d/init?publisher_user_id=[publisher_user_uuid]&panel_user_id=[panel_user_id]&panel_user_id_kind=[panel_user_id_kind]&pparam_offer_click_id=[offer_click_id]&pparam_provider_user_id=[provider_user_uuid]",
+        "active": true,
+        "created_at": "2017-01-13T11:02:16.000Z",
+        "export_columns": [
+            {
+                "key": "meta ID",
+                "header": "[meta] ID"
+            },
+            {
+                "key": "meta UUID",
+                "header": "[meta] UUID"
+            },
+            {
+                "key": "meta Survey ID",
+                "header": "[meta] Survey ID"
+            },
+            {
+                "key": "meta Publisher ID",
+                "header": "[meta] Publisher ID"
+            },
+            {
+                "key": "meta PanelUser ID",
+                "header": "[meta] PanelUser ID"
+            },
+            {
+                "key": "meta PanelUser ID kind",
+                "header": "[meta] PanelUser ID kind"
+            },
+            {
+                "key": "meta State",
+                "header": "[meta] State"
+            },
+            {
+                "key": "meta Created at",
+                "header": "[meta] Created at"
+            },
+            {
+                "key": "meta Completed at",
+                "header": "[meta] Completed at"
+            },
+            {
+                "key": "meta Duration",
+                "header": "[meta] Duration"
+            },
+            {
+                "key": "meta Is Test",
+                "header": "[meta] Is Test"
+            },
+            {
+                "key": "question answer_1 answer_id",
+                "header": "[question][answer_1][OPTION_ID]"
+            },
+            {
+                "key": "question answer_2 answer_id",
+                "header": "[question][answer_2][OPTION_ID]"
+            },
+            {
+                "key": "question answer_3 answer_id",
+                "header": "[question][answer_3][OPTION_ID]"
+            },
+            {
+                "key": "question answer_4 answer_id",
+                "header": "[question][answer_4][OPTION_ID]"
+            },
+            {
+                "key": "question answer_5 answer_id",
+                "header": "[question][answer_5][OPTION_ID]"
+            },
+            {
+                "key": "question answer_6 answer_id",
+                "header": "[question][answer_6][OPTION_ID]"
+            },
+            {
+                "key": "question answer_7 answer_id",
+                "header": "[question][answer_7][OPTION_ID]"
+            },
+            {
+                "key": "question answer_8 answer_id",
+                "header": "[question][answer_8][OPTION_ID]"
+            },
+            {
+                "key": "question answer_9 answer_id",
+                "header": "[question][answer_9][OPTION_ID]"
+            },
+            {
+                "key": "question answer_10a answer_id",
+                "header": "[question][answer_10a][OPTION_ID]"
+            },
+            {
+                "key": "question answer_10b answer_id",
+                "header": "[question][answer_10b][OPTION_ID]"
+            },
+            {
+                "key": "question answer_10c answer_id",
+                "header": "[question][answer_10c][OPTION_ID]"
+            },
+            {
+                "key": "dem city_or_rural",
+                "header": "[dem] city_or_rural"
+            },
+            {
+                "key": "trap total_score",
+                "header": "[trap] total_score"
+            },
+            {
+                "key": "meta Weight",
+                "header": "[meta] Weight"
+            },
+            {
+                "key": "meta OfferClick UUID",
+                "header": "[meta] OfferClick UUID"
+            },
+            {
+                "key": "dem reconciliation_prediction",
+                "header": "[dem] reconciliation_prediction"
+            },
+            {
+                "key": "dem gross_household_income_int",
+                "header": "[dem] gross_household_income_int"
+            },
+            {
+                "key": "dem job_title",
+                "header": "[dem] job_title"
+            },
+            {
+                "key": "dem no_of_employees",
+                "header": "[dem] no_of_employees"
+            },
+            {
+                "key": "dem industry_personal",
+                "header": "[dem] industry_personal"
+            },
+            {
+                "key": "dem gender",
+                "header": "[dem] gender"
+            },
+            {
+                "key": "dem birth_year",
+                "header": "[dem] birth_year"
+            },
+            {
+                "key": "dem car_purchase_intention",
+                "header": "[dem] car_purchase_intention"
+            },
+            {
+                "key": "dem full_time_job",
+                "header": "[dem] full_time_job"
+            },
+            {
+                "key": "dem trust_score",
+                "header": "[dem] trust_score"
+            },
+            {
+                "key": "dem education_level",
+                "header": "[dem] education_level"
+            },
+            {
+                "key": "dem gross_household_income_us",
+                "header": "[dem] gross_household_income_us"
+            },
+            {
+                "key": "dem education_level_detailed",
+                "header": "[dem] education_level_detailed"
+            },
+            {
+                "key": "dem age",
+                "header": "[dem] age"
+            },
+            {
+                "key": "trap gender",
+                "header": "[trap] gender"
+            },
+            {
+                "key": "trap car_purchase_intention",
+                "header": "[trap] car_purchase_intention"
+            },
+            {
+                "key": "trap is_attentive",
+                "header": "[trap] is_attentive"
+            },
+            {
+                "key": "dem relevant_id",
+                "header": "[dem] relevant_id"
+            },
+            {
+                "key": "dem relevant_id_vpn_detected",
+                "header": "[dem] relevant_id_vpn_detected"
+            },
+            {
+                "key": "dem relevant_id_fraud_score",
+                "header": "[dem] relevant_id_fraud_score"
+            },
+            {
+                "key": "dem relevant_id_fraud_score_markers_number",
+                "header": "[dem] relevant_id_fraud_score_markers_number"
+            },
+            {
+                "key": "dem cookies_supported",
+                "header": "[dem] cookies_supported"
+            },
+            {
+                "key": "dem country_code",
+                "header": "[dem] country_code"
+            },
+            {
+                "key": "dem city_name",
+                "header": "[dem] city_name"
+            },
+            {
+                "key": "dem postal_code",
+                "header": "[dem] postal_code"
+            },
+            {
+                "key": "dem region_name",
+                "header": "[dem] region_name"
+            },
+            {
+                "key": "dem latitude",
+                "header": "[dem] latitude"
+            },
+            {
+                "key": "dem longitude",
+                "header": "[dem] longitude"
+            },
+            {
+                "key": "dem dma_code",
+                "header": "[dem] dma_code"
+            },
+            {
+                "key": "dem device_kind",
+                "header": "[dem] device_kind"
+            },
+            {
+                "key": "dem device_platform",
+                "header": "[dem] device_platform"
+            },
+            {
+                "key": "dem device_version",
+                "header": "[dem] device_version"
+            },
+            {
+                "key": "dem publisher_user_id",
+                "header": "[dem] publisher_user_id"
+            },
+            {
+                "key": "dem ip",
+                "header": "[dem] ip"
+            },
+            {
+                "key": "dem user_agent",
+                "header": "[dem] user_agent"
+            },
+            {
+                "key": "dem browser_language",
+                "header": "[dem] browser_language"
+            }
+        ],
+        "export_questions": [
+            {
+                "id": "answer_1",
+                "title": "#Welcome to this survey about general knowledge!\n\n There are 10 questions in the survey",
+                "header": "[question][answer_1][OPTION_ID]"
+            },
+            {
+                "id": "answer_2",
+                "title": "<b>\n\nHow many hours per day do you spend on reading the news?</b>",
+                "header": "[question][answer_2][OPTION_ID]"
+            },
+            {
+                "id": "answer_3",
+                "title": "<b>\n\nWhich of these social media platforms do you use at least once a week?</b>",
+                "header": "[question][answer_3][OPTION_ID]"
+            },
+            {
+                "id": "answer_4",
+                "title": "<b>\n\nWhich of the following media do you use at least once a week?</b>",
+                "header": "[question][answer_4][OPTION_ID]"
+            },
+            {
+                "id": "answer_5",
+                "title": "<b>If given the chance to learn all the secrets of one PROMINENT PERSON, whose secrets would you like to know?</b>",
+                "header": "[question][answer_5][OPTION_ID]"
+            },
+            {
+                "id": "answer_6",
+                "title": "<b>\n\nDo you agree or disagree: In general, I trust the information I get from the media.</b>",
+                "header": "[question][answer_6][OPTION_ID]"
+            },
+            {
+                "id": "answer_7",
+                "title": "What is five plus two?",
+                "header": "[question][answer_7][OPTION_ID]"
+            },
+            {
+                "id": "answer_8",
+                "title": "Do you live in a city or in a rural area?",
+                "header": "[question][answer_8][OPTION_ID]"
+            },
+            {
+                "id": "answer_9",
+                "title": "<b>Which is your favourite from these award-winning films?</b>",
+                "header": "[question][answer_9][OPTION_ID]"
+            },
+            {
+                "id": "answer_10a",
+                "title": "<b>What do you like most about The Godfather?</b>",
+                "header": "[question][answer_10a][OPTION_ID]"
+            },
+            {
+                "id": "answer_10b",
+                "title": "<b>What do you like most about Gandhi?</b>",
+                "header": "[question][answer_10b][OPTION_ID]"
+            },
+            {
+                "id": "answer_10c",
+                "title": "<b>What do you like most about Forrest Gump?</b>",
+                "header": "[question][answer_10c][OPTION_ID]"
+            }
+        ]
+    },
+    "completion_uuid": "6cf3eb90-e308-0137-6534-02ca0f8c0646"
+}
