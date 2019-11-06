@@ -58,7 +58,7 @@
                                         "id": "O0030"
                                     },
                                     {
-                                        "text": "More than 7 hour",
+                                        "text": "More than 5 hour",
                                         "id": "O0040"
                                     }
                                 ]
@@ -71,7 +71,7 @@
                     "questions": [
                         {
                             "id": "answer_3",
-                            "validation_number_options": "3,4,5,6",
+                            "validation_number_options": "2,3,4,5,6",
                             "kind": "multiple",
                             "title": "<b>\n\nWhich of these social media platforms do you use at least once a week?</b>",
                             "shuffle_options": "true",
@@ -156,7 +156,7 @@
                             "kind": "text",
                             "title": "<b>If given the chance to learn all the secrets of one PROMINENT PERSON, whose secrets would you like to know?</b>",
                             "validation_regex": "[a-zA-Z]",
-                            "validation_message": "Please enter a number."
+                            "validation_message": "Please enter a valid Name."
                         }
                     ]
                 },
@@ -210,7 +210,7 @@
                 },
                 {
                     "id": "page_8",
-                    "disallow_back": "true",
+                    "disallow_back": "false",
                     "shuffle_questions": "false",
                     "questions": [
                         {
@@ -263,7 +263,7 @@
                                     {
                                         "text": "Forrest Gump",
                                         "id": "O0030",
-                                        "variable_value": "gandhi"
+                                        "variable_value": "forrest_gump"
                                     }
                                 ]
                             }
