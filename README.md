@@ -4,7 +4,7 @@ Section 1:
 
 The below sql query extracts relevent answers for a survey
 
-[SQL query](section_1\selectQuery.sql)
+[SQL query](https://github.com/raghavisukumar/QA_Task/blob/master/section_1/selectQuery.sql)
 
 Section 3:
 
