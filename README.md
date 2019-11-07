@@ -24,17 +24,19 @@ https://github.com/raghavisukumar/QA_Task/blob/master/section_3/Section3_Bugs.xl
 
 ## Section 4:
 
-For Automation I have used TestCafe which is a pure node.js end-to-end solution for testing web apps.
+The js based test automation uses [TestCafe](https://devexpress.github.io/testcafe/), a modern end-to-end web testing platform runs on top of nodejs
 
-INSTALLATION:
+###Setup nodejs and testcafe
 
-1. Install node platform if not already installed
+1. Install node platform
     https://nodejs.org/en/download/
     
 2. Install TestCafe: https://devexpress.github.io/testcafe/    
     npm install -g testcafe
 
-RUN TEST:    
+### Launching Test:    
+Run the following from command line
 
-   To execute test, run following from command line:
-     testcafe firefox healthCheckTest.js
+```sh
+testcafe firefox healthCheckTest.js
+```
