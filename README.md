@@ -27,10 +27,10 @@ https://github.com/raghavisukumar/QA_Task/blob/master/section_3/Section3_Bugs.xl
 The js based test automation uses [TestCafe](https://devexpress.github.io/testcafe/), a modern end-to-end web testing platform runs on top of nodejs
 
 ### Setup nodejs and testcafe
-- Install node platform
-  https://nodejs.org/en/download/
-- Install TestCafe
-  npm install -g testcafe
+* Install node platform
+    - https://nodejs.org/en/download/
+* Install TestCafe
+    - npm install -g testcafe
 
 ### Launching Test    
 Run the following from command line
