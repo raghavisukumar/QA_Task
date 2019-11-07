@@ -32,7 +32,7 @@ The js based test automation uses [TestCafe](https://devexpress.github.io/testca
 - Install TestCafe
   npm install -g testcafe
 
-### Launching Test:    
+### Launching Test    
 Run the following from command line
 
 ```sh
