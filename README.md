@@ -14,14 +14,14 @@ https://github.com/raghavisukumar/QA_Task/blob/master/section_2/Exploratory_Test
 
 Section 3:
 
-Please refer the below sheet for issues found as part of provided link
-
-https://github.com/raghavisukumar/QA_Task/blob/master/section_3/Section3_Bugs.xlsx
-
 The below commit diff view explains the issues in actual json and proposed fixes.
 
 https://github.com/raghavisukumar/QA_Task/commit/fc53e53f3a226a2b8aa0b8ba07ee6ad0c3d3f4de?diff=split
 
+Please refer the below sheet for issues found as part of provided link
+
+https://github.com/raghavisukumar/QA_Task/blob/master/section_3/Section3_Bugs.xlsx
+
 Section 4:
 
-TODO
+INPROGRESS
